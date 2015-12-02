@@ -15,6 +15,14 @@
 		70186CE61BC89EBC0082A71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186CE41BC89EBC0082A71F /* LaunchScreen.storyboard */; };
 		70186CF11BC89EBC0082A71F /* _1_applewatch___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186CF01BC89EBC0082A71F /* _1_applewatch___UITests.m */; };
 		70186CFC1BC89EBC0082A71F /* _1_applewatch___UIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186CFB1BC89EBC0082A71F /* _1_applewatch___UIUITests.m */; };
+		70186D131BC89ECA0082A71F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186D121BC89ECA0082A71F /* InterfaceController.m */; };
+		70186D161BC89ECA0082A71F /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70186D151BC89ECA0082A71F /* NotificationController.m */; };
+		70186D181BC89ECA0082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186D171BC89ECA0082A71F /* Assets.xcassets */; };
+		70186D1D1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 70186D1C1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App.app */; };
+		70186D231BC89ECB0082A71F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70186D211BC89ECB0082A71F /* Interface.storyboard */; };
+		70186D251BC89ECB0082A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70186D241BC89ECB0082A71F /* Assets.xcassets */; };
+		70186D291BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 70186D0D1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		70186D321BC8A2360082A71F /* minion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70186D311BC8A2360082A71F /* minion.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +40,35 @@
 			remoteGlobalIDString = 70186CD21BC89EBC0082A71F;
 			remoteInfo = "01-applewatch-基础UI";
 		};
+		70186D1E1BC89ECB0082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186CCB1BC89EBC0082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186D1B1BC89ECB0082A71F;
+			remoteInfo = "01-applewatch-基础UI WatchKit 1 App";
+		};
+		70186D271BC89ECB0082A71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70186CCB1BC89EBC0082A71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70186D0C1BC89ECA0082A71F;
+			remoteInfo = "01-applewatch-基础UI WatchKit 1 Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70186D301BC89ECB0082A71F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70186D291BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		70186CD31BC89EBC0082A71F /* 01-applewatch-基础UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-applewatch-基础UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +87,19 @@
 		70186CF71BC89EBC0082A71F /* 01-applewatch-基础UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-applewatch-基础UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70186CFB1BC89EBC0082A71F /* _1_applewatch___UIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_applewatch___UIUITests.m"; sourceTree = "<group>"; };
 		70186CFD1BC89EBC0082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186D0D1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "01-applewatch-基础UI WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186D101BC89ECA0082A71F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		70186D111BC89ECA0082A71F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		70186D121BC89ECA0082A71F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		70186D141BC89ECA0082A71F /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		70186D151BC89ECA0082A71F /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		70186D171BC89ECA0082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70186D191BC89ECA0082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186D1C1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-applewatch-基础UI WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70186D221BC89ECB0082A71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		70186D241BC89ECB0082A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70186D261BC89ECB0082A71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70186D311BC8A2360082A71F /* minion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +124,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70186D0A1BC89ECA0082A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +140,8 @@
 				70186CD51BC89EBC0082A71F /* 01-applewatch-基础UI */,
 				70186CEF1BC89EBC0082A71F /* 01-applewatch-基础UITests */,
 				70186CFA1BC89EBC0082A71F /* 01-applewatch-基础UIUITests */,
+				70186D0E1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension */,
+				70186D201BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App */,
 				70186CD41BC89EBC0082A71F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +152,8 @@
 				70186CD31BC89EBC0082A71F /* 01-applewatch-基础UI.app */,
 				70186CEC1BC89EBC0082A71F /* 01-applewatch-基础UITests.xctest */,
 				70186CF71BC89EBC0082A71F /* 01-applewatch-基础UIUITests.xctest */,
+				70186D0D1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension.appex */,
+				70186D1C1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +200,39 @@
 			path = "01-applewatch-基础UIUITests";
 			sourceTree = "<group>";
 		};
+		70186D0E1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70186D311BC8A2360082A71F /* minion.jpg */,
+				70186D111BC89ECA0082A71F /* InterfaceController.h */,
+				70186D121BC89ECA0082A71F /* InterfaceController.m */,
+				70186D141BC89ECA0082A71F /* NotificationController.h */,
+				70186D151BC89ECA0082A71F /* NotificationController.m */,
+				70186D171BC89ECA0082A71F /* Assets.xcassets */,
+				70186D191BC89ECA0082A71F /* Info.plist */,
+				70186D0F1BC89ECA0082A71F /* Supporting Files */,
+			);
+			path = "01-applewatch-基础UI WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		70186D0F1BC89ECA0082A71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70186D101BC89ECA0082A71F /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70186D201BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				70186D211BC89ECB0082A71F /* Interface.storyboard */,
+				70186D241BC89ECB0082A71F /* Assets.xcassets */,
+				70186D261BC89ECB0082A71F /* Info.plist */,
+			);
+			path = "01-applewatch-基础UI WatchKit 1 App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +243,12 @@
 				70186CCF1BC89EBC0082A71F /* Sources */,
 				70186CD01BC89EBC0082A71F /* Frameworks */,
 				70186CD11BC89EBC0082A71F /* Resources */,
+				70186D301BC89ECB0082A71F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70186D281BC89ECB0082A71F /* PBXTargetDependency */,
 			);
 			name = "01-applewatch-基础UI";
 			productName = "01-applewatch-基础UI";
@@ -196,6 +291,39 @@
 			productReference = 70186CF71BC89EBC0082A71F /* 01-applewatch-基础UIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		70186D0C1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186D2D1BC89ECB0082A71F /* Build configuration list for PBXNativeTarget "01-applewatch-基础UI WatchKit 1 Extension" */;
+			buildPhases = (
+				70186D091BC89ECA0082A71F /* Sources */,
+				70186D0A1BC89ECA0082A71F /* Frameworks */,
+				70186D0B1BC89ECA0082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70186D1F1BC89ECB0082A71F /* PBXTargetDependency */,
+			);
+			name = "01-applewatch-基础UI WatchKit 1 Extension";
+			productName = "01-applewatch-基础UI WatchKit 1 Extension";
+			productReference = 70186D0D1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		70186D1B1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70186D2A1BC89ECB0082A71F /* Build configuration list for PBXNativeTarget "01-applewatch-基础UI WatchKit 1 App" */;
+			buildPhases = (
+				70186D1A1BC89ECB0082A71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-applewatch-基础UI WatchKit 1 App";
+			productName = "01-applewatch-基础UI WatchKit 1 App";
+			productReference = 70186D1C1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +344,12 @@
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 70186CD21BC89EBC0082A71F;
 					};
+					70186D0C1BC89ECA0082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					70186D1B1BC89ECB0082A71F = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 70186CCE1BC89EBC0082A71F /* Build configuration list for PBXProject "01-applewatch-基础UI" */;
@@ -234,6 +368,8 @@
 				70186CD21BC89EBC0082A71F /* 01-applewatch-基础UI */,
 				70186CEB1BC89EBC0082A71F /* 01-applewatch-基础UITests */,
 				70186CF61BC89EBC0082A71F /* 01-applewatch-基础UIUITests */,
+				70186D0C1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension */,
+				70186D1B1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App */,
 			);
 		};
 /* End PBXProject section */
@@ -260,6 +396,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186D0B1BC89ECA0082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186D181BC89ECA0082A71F /* Assets.xcassets in Resources */,
+				70186D321BC8A2360082A71F /* minion.jpg in Resources */,
+				70186D1D1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70186D1A1BC89ECB0082A71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186D251BC89ECB0082A71F /* Assets.xcassets in Resources */,
+				70186D231BC89ECB0082A71F /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +447,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70186D091BC89ECA0082A71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70186D161BC89ECA0082A71F /* NotificationController.m in Sources */,
+				70186D131BC89ECA0082A71F /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +468,16 @@
 			isa = PBXTargetDependency;
 			target = 70186CD21BC89EBC0082A71F /* 01-applewatch-基础UI */;
 			targetProxy = 70186CF81BC89EBC0082A71F /* PBXContainerItemProxy */;
+		};
+		70186D1F1BC89ECB0082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186D1B1BC89ECB0082A71F /* 01-applewatch-基础UI WatchKit 1 App */;
+			targetProxy = 70186D1E1BC89ECB0082A71F /* PBXContainerItemProxy */;
+		};
+		70186D281BC89ECB0082A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70186D0C1BC89ECA0082A71F /* 01-applewatch-基础UI WatchKit 1 Extension */;
+			targetProxy = 70186D271BC89ECB0082A71F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,6 +496,14 @@
 				70186CE51BC89EBC0082A71F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		70186D211BC89ECB0082A71F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70186D221BC89ECB0082A71F /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -477,6 +659,58 @@
 			};
 			name = Release;
 		};
+		70186D2B1BC89ECB0082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "_1_applewatch___UI_WatchKit_1_Extension";
+				INFOPLIST_FILE = "01-applewatch-基础UI WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-applewatch---UI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		70186D2C1BC89ECB0082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "_1_applewatch___UI_WatchKit_1_Extension";
+				INFOPLIST_FILE = "01-applewatch-基础UI WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-applewatch---UI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		70186D2E1BC89ECB0082A71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-applewatch-基础UI WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-applewatch---UI.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		70186D2F1BC89ECB0082A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "01-applewatch-基础UI WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-1-applewatch---UI.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -510,6 +744,22 @@
 			buildConfigurations = (
 				70186D071BC89EBC0082A71F /* Debug */,
 				70186D081BC89EBC0082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70186D2A1BC89ECB0082A71F /* Build configuration list for PBXNativeTarget "01-applewatch-基础UI WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186D2B1BC89ECB0082A71F /* Debug */,
+				70186D2C1BC89ECB0082A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70186D2D1BC89ECB0082A71F /* Build configuration list for PBXNativeTarget "01-applewatch-基础UI WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70186D2E1BC89ECB0082A71F /* Debug */,
+				70186D2F1BC89ECB0082A71F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
